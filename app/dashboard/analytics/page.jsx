@@ -1,5 +1,10 @@
 import CustomButton from '@/app/components/CustomButton'
 import React from 'react'
+export const metadata = {
+  title: "Analytics",
+  description: "Analytics",
+};
+
 
 const analyticsPage = () => {
     return (

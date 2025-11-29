@@ -31,6 +31,9 @@ export default function RootLayout({ children }) {
             <li>
               <CustomLink path="/dashboard/setting">Settings</CustomLink>
             </li>
+            <li>
+              <CustomLink path="/heavy">Heavy</CustomLink>
+            </li>
           </ul>
         </nav>
         {children}

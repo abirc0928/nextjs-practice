@@ -5,7 +5,7 @@ const settings = () => {
     return (
         <div className='p-10'>
             <h1>Settings</h1>
-            <CustomButton path="/dashboard/analytics">Go To Analystic</CustomButton>
+            <CustomButton path="/analytics">Go To Analystic</CustomButton>
         </div>
 
     )

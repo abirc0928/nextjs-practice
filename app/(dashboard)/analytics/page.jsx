@@ -7,10 +7,11 @@ export const metadata = {
 
 
 const analyticsPage = () => {
+    // throw new Error("Error occure in analytics")
     return (
         <div className='p-5'>
             <p>Analytics Page</p>
-            <CustomButton path="/dashboard/setting">Go To Settings</CustomButton>
+            <CustomButton path="/setting">Go To Settings</CustomButton>
         </div>
     )
 }

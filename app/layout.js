@@ -26,10 +26,10 @@ export default function RootLayout({ children }) {
               <CustomLink path="/">Home</CustomLink>
             </li>
             <li>
-              <CustomLink path="/dashboard/analytics">Analytics</CustomLink>
+              <CustomLink path="/analytics">Analytics</CustomLink>
             </li>
             <li>
-              <CustomLink path="/dashboard/setting">Settings</CustomLink>
+              <CustomLink path="/setting">Settings</CustomLink>
             </li>
             <li>
               <CustomLink path="/heavy">Heavy</CustomLink>

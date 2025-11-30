@@ -8,6 +8,7 @@ export const metadata = {
 
 
 const Heavy = () => {
+    // throw new Error("error from heavy")
     return (
         <div>
             <p className='text-xl'>Heavy</p>
